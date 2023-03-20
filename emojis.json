@@ -8,6 +8,14 @@
     "subGroup": "face-smiling"
   },
   {
+    "slug": "e14-0-melting-face",
+    "character": "🫠",
+    "unicodeName": "melting heart",
+    "codePoint": "1FAE0",
+    "group": "smileys-emotion",
+    "subGroup": "face-smiling"
+  },
+  {
     "slug": "grinning-face-with-big-eyes",
     "character": "😃",
     "unicodeName": "grinning face with big eyes",
@@ -31,7 +39,6 @@
     "group": "smileys-emotion",
     "subGroup": "face-smiling"
   },
-  
   {
     "slug": "grinning-squinting-face",
     "character": "😆",
@@ -233,6 +240,30 @@
     "subGroup": "face-hand"
   },
   {
+    "slug": "e14-0-face-with-open-eyes-and-hand-over-mouth",
+    "character": "🫢",
+    "unicodeName": "E14.0 face with open eyes and hand over mouth",
+    "codePoint": "1FAE2 ",
+    "group": "smileys-emotion",
+    "subGroup": "face-hand"
+  },
+  {
+    "slug": "e14-0-face-with-peeking-eye",
+    "character": "🫣",
+    "unicodeName": "E14.0 face with peeking eye",
+    "codePoint": "1FAE3 ",
+    "group": "smileys-emotion",
+    "subGroup": "face-hand"
+  },
+  {
+    "slug": "e14-0-saluting-face",
+    "character": "🫡",
+    "unicodeName": "E14.0 saluting face",
+    "codePoint": "1FAE1 ",
+    "group": "smileys-emotion",
+    "subGroup": "face-hand"
+  },
+  {
     "slug": "face-with-hand-over-mouth",
     "character": "🤭",
     "unicodeName": "face with hand over mouth",
@@ -389,6 +420,14 @@
     "character": "🤒",
     "unicodeName": "face with thermometer",
     "codePoint": "1F912",
+    "group": "smileys-emotion",
+    "subGroup": "face-unwell"
+  },
+  {
+    "slug": "face-with-spiral-eyes",
+    "character": "😵‍💫",
+    "unicodeName": "face with spiral eyes",
+    "codePoint": "1F635 200D 1F4AB",
     "group": "smileys-emotion",
     "subGroup": "face-unwell"
   },
@@ -26845,6 +26884,38 @@
     "subGroup": "face-neutral-skeptical"
   },
   {
+    "slug": "dotted-line-face",
+    "character": "🫥",
+    "unicodeName": "dotted line face",
+    "codePoint": "1FAE5",
+    "group": "smileys-emotion",
+    "subGroup": "face-neutral-skeptical"
+  },
+  {
+    "slug": "face-exhaling",
+    "character": "😮‍💨",
+    "unicodeName": "face exhaling",
+    "codePoint": "1F92E 200D 1F4A8",
+    "group": "smileys-emotion",
+    "subGroup": "face-neutral-skeptical"
+  },
+  {
+    "slug": "shaking-face",
+    "character": "🫨",
+    "unicodeName": "shaking face",
+    "codePoint": "1FAE8",
+    "group": "smileys-emotion",
+    "subGroup": "face-neutral-skeptical"
+  },
+  {
+    "slug": "face-in-clouds",
+    "character": "😶‍🌫",
+    "unicodeName": "face in clouds",
+    "codePoint": "1F636 200D 1F32B FE0F",
+    "group": "smileys-emotion",
+    "subGroup": "face-neutral-skeptical"
+  },
+  {
     "slug": "e5-0-face-with-raised-eyebrow",
     "character": "🤨",
     "unicodeName": "E5.0 face with raised eyebrow",
@@ -27097,6 +27168,22 @@
     "character": "😕",
     "unicodeName": "E1.0 confused face",
     "codePoint": "1F615",
+    "group": "smileys-emotion",
+    "subGroup": "face-concerned"
+  },
+  {
+    "slug": "face-with-diagonal-mouth",
+    "character": "🫤",
+    "unicodeName": "face-with-diagonal-mouth",
+    "codePoint": "1FAE4",
+    "group": "smileys-emotion",
+    "subGroup": "face-concerned"
+  },
+  {
+    "slug": "face holding back tears",
+    "character": "🥹",
+    "unicodeName": "face-holding-back-tears",
+    "codePoint": "1F979",
     "group": "smileys-emotion",
     "subGroup": "face-concerned"
   },
@@ -27529,6 +27616,22 @@
     "character": "💘",
     "unicodeName": "E0.6 heart with arrow",
     "codePoint": "1F498",
+    "group": "smileys-emotion",
+    "subGroup": "emotion"
+  },
+  {
+    "slug": "heart-on-fire",
+    "character": "❤️‍🔥",
+    "unicodeName": "heart on fire",
+    "codePoint": "2764 FE0F 200D 1F525",
+    "group": "smileys-emotion",
+    "subGroup": "emotion"
+  },
+  {
+    "slug": "heart-with-bandage",
+    "character": "❤️‍🩹",
+    "unicodeName": "heart with bandage",
+    "codePoint": "2764 FE0F 200D 1FA79",
     "group": "smileys-emotion",
     "subGroup": "emotion"
   },
