@@ -1,1 +1,1 @@
-this is emojis.json
+this is emuji.json
