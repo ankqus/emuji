@@ -3,7 +3,6 @@ import os
 import re
 import requests
 import time
-
 # import shutil
 # import threading
 
@@ -102,13 +101,13 @@ def parse_line(line):
 
     if len(data) != 3:
         return None
-    codes, status, char_and_name = data
+    code, status, char_and_name = data
     match = re.match(r"^(\S+) E\d+\.\d+ (.+)$", char_and_name)
 
     if not match:
         return None
     char, name = match.groups()
-    return {"name": name,"char": char, "codes": codes}
+    return {"name": name,"char": char, "code": code}
 
 
 def write_files(collected):
