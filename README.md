@@ -2,4 +2,3 @@
 
 data used: https://unicode.org/Public/emoji/15.0/emoji-test.txt
 
-cc: github@amio
