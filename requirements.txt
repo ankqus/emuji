@@ -1,6 +1,6 @@
-json
 os
-re
-requests
 time
-tqdm
+json==2.0.9
+re==2.2.1
+requests==2.28.2
+tqdm==4.65.0
