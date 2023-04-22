@@ -3,7 +3,7 @@ import os
 import re
 import requests
 import time
-from loading import pro_bar
+from utils.loading import pro_bar
 
 version = "15.0"
 
