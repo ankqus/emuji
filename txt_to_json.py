@@ -3,6 +3,7 @@ import os
 import re
 import requests
 import time
+from loading import pro_bar
 
 version = "15.0"
 
@@ -11,11 +12,8 @@ def main():
     text = get_test_file(version)
     end = time.time()
     time_taken = end - start
-    print("[FETCHED]")
-    print()
     # global stop_dancing_text
     # stop_dancing_text = True
-
     accu = {"comments": "", "full": [], "compact": []}
     lines = text.strip().split("\n")
     op_message = "{}"
@@ -38,25 +36,9 @@ def main():
                 accu["comments"] = accu["comments"].strip() + "\n\n"
     print(f"\nProcessed emojis: {len(accu['full'])}")
     print(f"Version: (v{version})")
-    print("O/P file: emoji.json, emoji-only.json")
+    print("O/P files: emoji.json, emoji-only.json")
     print(f"Total time taken: {time_taken:.2f} seconds\n")
     write_files(accu)
-
-def pro_bar(
-    iteration, 
-    total, 
-    prefix="", 
-    suffix="", 
-    decimals=1, 
-    length=50, 
-    fill="█"
-):
-    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
-    filled_length = int(length * iteration // total)
-    bar = fill * filled_length + "-" * (length - filled_length)
-    print(f"\r{prefix} |{bar}| {percent}% {suffix}", end="\r")
-    if iteration == total:
-        print()
 
 def get_test_file(ver):
     url = f"https://unicode.org/Public/emoji/{ver}/emoji-test.txt"
@@ -72,9 +54,7 @@ def get_test_file(ver):
     # dancing_text_thread.daemon = True
     # dancing_text_thread.start()
     print()
-    for i in range(61):
-        pro_bar(i, 60)
-        time.sleep(0.2)
+    pro_bar()
     return text
 
 def parse_line(line):
