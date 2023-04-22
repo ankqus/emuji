@@ -2,5 +2,5 @@
 
 data used: https://unicode.org/Public/emoji/15.0/emoji-test.txt
 
-replace "15.0" with other version.
+replace "15.0" with different version.
 
