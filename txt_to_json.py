@@ -11,16 +11,16 @@ def main():
     start = time.time()
     text = get_test_file(version)
     end = time.time()
-    time_taken = end - start
+    run_time = end - start
     # global stop_dancing_text
     # stop_dancing_text = True
     accu = {"comments": "", "full": [], "compact": []}
     lines = text.strip().split("\n")
-    op_message = "{}"
+    pa = "{}"
 
     for line in lines:
         if line.startswith("# group: "):
-            print(op_message.format(line[2:].title()))
+            print(pa.format(line[2:].title()))
             accu["group"] = line[9:]
         elif line.startswith("# subgroup: "):
             accu["sub-group"] = line[12:]
@@ -37,7 +37,7 @@ def main():
     print(f"\nProcessed emojis: {len(accu['full'])}")
     print(f"Version: (v{version})")
     print("O/P files: emoji.json, emoji-only.json")
-    print(f"Total time taken: {time_taken:.2f} seconds\n")
+    print(f"Run Time: {run_time:.2f} seconds\n")
     write_files(accu)
 
 def get_test_file(ver):
